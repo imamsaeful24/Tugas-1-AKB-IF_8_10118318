@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 08-04-2021_IMAMSAEFUL_10118318!-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    tools:context=".MainActivity">
+    //NavigasiBar
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="CekSepatu.Com"
+                android:textColor="@color/putih"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:layout_weight="1"
+                android:backgroundTint="@color/putih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/search"
+                android:gravity="left|center_vertical"
+                android:text="Cari Sepatumu"
+                android:textAllCaps="false"/>
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:background="@drawable/user"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    //header
+    <LinearLayout
+
+        android:background="@drawable/header"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/profile">
+
+    </RelativeLayout>
+
+</LinearLayout>

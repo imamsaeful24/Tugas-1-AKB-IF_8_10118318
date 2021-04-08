@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 07-04-2021_IMAMSAEFUL_10118318!-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    tools:context=".MainActivity">
+    //NavigasiBar
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="CekSepatu.Com"
+                android:textColor="@color/putih"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"/>
+
+            <Button
+                android:layout_weight="1"
+                android:backgroundTint="@color/putih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/search"
+                android:gravity="left|center_vertical"
+                android:text="Cari Sepatumu"
+                android:textAllCaps="false"/>
+            <RelativeLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/btn_profile"
+                android:background="@drawable/user"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    //header
+    <LinearLayout
+
+        android:background="@drawable/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </LinearLayout>
+    //splash
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-90dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/splash"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/g1" />
+
+        <LinearLayout
+            android:layout_width="227dp"
+            android:layout_height="165dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khusus Hari Ini Guys"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ADIDAS ZX 2K BOOST SHOES"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Rp.2.200.000"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:layout_width="109dp"
+                android:layout_height="22dp"
+                android:background="#58ADFA"
+                android:text="ambil promo"
+                android:textColor="@color/putih"/>
+
+        </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/splash"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/g2" />
+
+        <LinearLayout
+            android:layout_width="227dp"
+            android:layout_height="165dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khusus Hari Ini Guys"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ADIDAS NMD_R1 SPECTOO SHOES"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Rp.2.200.000"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:layout_width="109dp"
+                android:layout_height="22dp"
+                android:background="#58ADFA"
+                android:text="ambil promo"
+                android:textColor="@color/putih" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/splash"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/g3" />
+
+
+        <LinearLayout
+            android:layout_width="227dp"
+            android:layout_height="142dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khusus Hari Ini Guys"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ADIDAS ZX 2K BOOST SHOES"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Rp.2.200.000"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:layout_width="109dp"
+                android:layout_height="22dp"
+                android:background="#58ADFA"
+                android:text="ambil promo"
+                android:textColor="@color/putih" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:textColor="#ffff"
+        android:backgroundTint="#F30A0A"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+        </LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 06-04-2021_IMAMSAEFUL_10118318!-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:id="@+id/splash_screen">
+
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="729dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cek" />
+
+    <ImageView
+        android:layout_width="277dp"
+        android:layout_height="235dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logose" />
+</RelativeLayout>
